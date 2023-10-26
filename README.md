@@ -56,7 +56,7 @@ Such as:
 
 OrganoID now includes a user interface. To start the interface, run:
 
-> python OrganoID_UI.py
+> python3.11 OrganoID_UI.py
 
 The parameters in the interface correspond to those in the command-line tool.
 
