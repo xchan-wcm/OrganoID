@@ -64,3 +64,21 @@ The parameters in the interface correspond to those in the command-line tool.
 
 The dataset for model training and all validation/testing from the OrganoID publication is openly available here:
 https://osf.io/xmes4/
+
+<h1>OID Protocol used in Barbieri Lab</h1>
+
+1.	OrganoID Software: Ensure it's tested and deployed on your own laptop.
+2.	Organoids Images:
+
+•	Export from Incucyte in TIFF format.
+
+•	Only export the endpoint images.
+
+•	It's recommended to have at least 3 replicates per condition/group.
+
+•	Manually crop the images to remove any plate frames, timestamps, and figure legends.
+
+Pay attention to “threshold” function = "Belief threshold to consider a pixel an organoid." 
+
+
+
